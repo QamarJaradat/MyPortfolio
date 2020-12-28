@@ -1,4 +1,3 @@
-# Use an official Python runtime as a parent image
 FROM python:3
 
 # Adding backend directory to make absolute filepaths consistent across services
