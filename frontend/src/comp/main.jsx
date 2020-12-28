@@ -15,6 +15,12 @@ export default class main extends Component {
                 <div id='main' className='maindiv' style={{ paddingTop: '150px' }}>
                     <div className='inmaindiv' ></div>
                     <div id='triangle-bottomleft'></div>
+                    <div className='namediv'>
+                        <h5>Qamar Jaradat</h5>
+                        <p>Full stack Developer</p>
+                    </div>
+                    <div className='imgdiv'>
+                    </div>
                 </div>
                 <div id='home'>home</div>
                 <div id='news'>neeeeee</div>
