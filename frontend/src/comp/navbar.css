@@ -31,11 +31,11 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #846267;
+    background-color: #b1908f;
   }
   
   .active {
-    background-color: #846267;
+    background-color: #b1908f;
   }
 
 
@@ -75,7 +75,7 @@ ul {
     position: absolute;
     margin-left: 17.5%;
     margin-right:auto;
-    background-color: #a18388;
+    background-color: #F6D3D2;
     box-shadow: 16px 16px rgba(255, 255, 255, 0.76);
 
 
@@ -131,7 +131,62 @@ ul {
 #triangle-bottomleftbiggeer {
     width: 0;
     height: 0;
-    border-bottom: 300px solid #A9B0CB;
-    border-right: 300px solid transparent;
+    border-bottom: 517px solid #A9B0CB;
+    border-right: 517px solid transparent;
     position: absolute;
+}
+#triangle-bottomroghtbiggeer {
+    width: 0;
+    height: 0;
+    border-bottom: 517px solid #F6D3D2;
+    border-left: 517px solid transparent;
+    position: absolute;
+    margin-left:746px
+}
+
+.fulldiv{
+    width: 100%;
+    height: 517px;
+    position: absolute;
+    margin-right:auto;
+    background-color: #F6D3D2;
+    box-shadow: 16px 16px rgba(255, 255, 255, 0.76);   
+}
+.whitediv{
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    margin-left: 17.5%;
+    margin-right:auto;
+    background-color: #ffffff;
+    margin-top: 96px;
+    /* box-shadow: 16px 16px rgba(255, 255, 255, 0.76); */
+}
+
+.contactimgdiv{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    margin-left: 57.5%;
+    margin-right:auto;
+    background-image: url('https://uniquer.it/wp-content/uploads/2018/12/work-with-us.jpg');
+    margin-top: 96px;
+    background-size:100% 350px;
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    /* box-shadow: 16px 16px rgba(255, 255, 255, 0.76); */
+}
+.contme{
+    margin-top:75px;
+    font-family: 'Kaushan Script', cursive;
+    color: #b1908f;
+    font-size:37px
+   
+}
+h4 ,p{
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    color:#8b92b1;
+    font-family: 'Lato', sans-serif;
+
 }

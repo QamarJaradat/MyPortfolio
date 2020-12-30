@@ -23,8 +23,24 @@ export default class main extends Component {
                     </div>
                 </div>
                 <div id='home'>home</div>
-                <div id='news'>neeeeee</div>
-                <div id='contact'>hhhh</div>
+                <div id='news' style={{ marginBottom: '213px' }}>
+                    <div className='fulldiv' style={{ backgroundColor: 'white' }}></div>
+                    <div id='triangle-bottomroghtbiggeer'></div>
+                    <div className='whitediv' style={{ width: '65%', backgroundColor: '#ccd2eb' }} >
+                    </div>
+                </div>
+                <div id='contact' >
+                    <div className='fulldiv' ></div>
+                    <div id='triangle-bottomleftbiggeer' ></div>
+                    <div className='whitediv' > <h2 className='contme'>Work With Me</h2>
+                        <h4>Email Address</h4>
+                        <p>moon19.qs@gmail.com</p>
+                        <br></br>
+                        <h4>Phone Number</h4>
+                        <p>+972 569 671 745</p>
+                    </div>
+                    <div className='contactimgdiv'></div>
+                </div>
 
 
             </div>
