@@ -71,12 +71,12 @@ ul {
 }
 .inmaindiv{
     width: 65%;
-    height: 350px;
+    height: 300px;
     position: absolute;
     margin-left: 17.5%;
     margin-right:auto;
-    background-color: #F6D3D2;
-    box-shadow: 16px 16px rgba(255, 255, 255, 0.76);
+    background-color: #ffffffcb;
+    box-shadow: 16px 16px #f6d3d2cb;
 
 
 }
@@ -91,8 +91,8 @@ ul {
 }
 .namediv{
     position: absolute;
-    margin-left: 53%;
-    margin-top: 97px;
+    margin-left: 35%;
+    margin-top: 67px;
     margin-right:auto;
     font-family: 'Kaushan Script', cursive;
     color:white;
@@ -101,18 +101,13 @@ ul {
     text-align: center;
 }
 
-.namediv h5{
-    display: block;
-    font-size: 1.7em;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
+
 .namediv p{
     margin-top:0;
     font-family: 'Lato', sans-serif;
+    color:#b68498
+    
+    
 }
 
 .imgdiv{
@@ -131,7 +126,7 @@ ul {
 #triangle-bottomleftbiggeer {
     width: 0;
     height: 0;
-    border-bottom: 517px solid #A9B0CB;
+    border-bottom: 517px solid #A9B0CBcb;
     border-right: 517px solid transparent;
     position: absolute;
 }
@@ -149,7 +144,7 @@ ul {
     height: 517px;
     position: absolute;
     margin-right:auto;
-    background-color: #F6D3D2;
+    background-color: #F6D3D2cb;
     box-shadow: 16px 16px rgba(255, 255, 255, 0.76);   
 }
 .whitediv{
@@ -179,7 +174,7 @@ ul {
 .contme{
     margin-top:75px;
     font-family: 'Kaushan Script', cursive;
-    color: #b1908f;
+    color: #8f7a7f;
     font-size:37px
    
 }
@@ -190,3 +185,28 @@ h4 ,p{
     font-family: 'Lato', sans-serif;
 
 }
+
+h1 span span {
+    position: relative;
+    animation: move-text-color 0.75s forwards;
+    bottom: -1em;
+    opacity: 0;
+  }
+  @keyframes move-text-color {
+    0% {
+      bottom: -0.2em;
+      opacity: 1;
+      color: #c4938c;
+    }
+    
+    50% {
+      bottom: 0.2em;
+      color: #b68498;
+    }
+  
+    100% {
+      bottom: 0;
+      opacity: 1;
+      color: #8f7a7f;
+    }
+  }
