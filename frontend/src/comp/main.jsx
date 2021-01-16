@@ -34,12 +34,27 @@ export default class main extends Component {
                     <div className='inmaindiv' ></div>
                     <div className='namediv'>
                         <h1><SplitText copy="Hi, I'm Qamar Jaradat" role="heading" /></h1>
-                        {/* <h1><SplitText copy="Full stack Developer" role="heading" wait={1000} /></h1> */}
                         <p>Full stack Developer</p>
                     </div>
 
                 </div>
-                <div id='home'>home</div>
+                <div id='home'>
+                    <div className='fulldiv' ></div>
+                    <div className='whitediv' > <h2 className='contme'>Work With Me</h2>
+                        <div class="d-flex justify-content-between">
+                            <div>
+
+                            </div>
+                            <div>
+
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
                 <div id='news' style={{ marginBottom: '213px' }}>
                     <div className='fulldiv' style={{ backgroundColor: 'white' }}></div>
                     <div id='triangle-bottomroghtbiggeer'></div>
